@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Gestiondestage/static/css/main.ca29999b.chunk.css",
+    "main.js": "/Gestiondestage/static/js/main.5553b76b.chunk.js",
+    "main.js.map": "/Gestiondestage/static/js/main.5553b76b.chunk.js.map",
+    "runtime-main.js": "/Gestiondestage/static/js/runtime-main.c3381706.js",
+    "runtime-main.js.map": "/Gestiondestage/static/js/runtime-main.c3381706.js.map",
+    "static/js/2.acdecacb.chunk.js": "/Gestiondestage/static/js/2.acdecacb.chunk.js",
+    "static/js/2.acdecacb.chunk.js.map": "/Gestiondestage/static/js/2.acdecacb.chunk.js.map",
+    "static/js/3.e8019b30.chunk.js": "/Gestiondestage/static/js/3.e8019b30.chunk.js",
+    "static/js/3.e8019b30.chunk.js.map": "/Gestiondestage/static/js/3.e8019b30.chunk.js.map",
+    "index.html": "/Gestiondestage/index.html",
+    "static/css/main.ca29999b.chunk.css.map": "/Gestiondestage/static/css/main.ca29999b.chunk.css.map",
+    "static/js/2.acdecacb.chunk.js.LICENSE.txt": "/Gestiondestage/static/js/2.acdecacb.chunk.js.LICENSE.txt",
+    "static/media/Contact.css": "/Gestiondestage/static/media/bak3.e02d8eba.jpg",
+    "static/media/contact11.6cce6a7a.png": "/Gestiondestage/static/media/contact11.6cce6a7a.png",
+    "static/media/contact7.9747ac45.png": "/Gestiondestage/static/media/contact7.9747ac45.png",
+    "static/media/contact9.fee3c5c5.png": "/Gestiondestage/static/media/contact9.fee3c5c5.png",
+    "static/media/Accueil.css": "/Gestiondestage/static/media/img11.f9d71a6e.jpg",
+    "static/media/img3.82aff82e.jpg": "/Gestiondestage/static/media/img3.82aff82e.jpg",
+    "static/media/img4.9681c1eb.jpg": "/Gestiondestage/static/media/img4.9681c1eb.jpg",
+    "static/media/logo222.ec0ccb42.png": "/Gestiondestage/static/media/logo222.ec0ccb42.png",
+    "static/media/mapedep.d27c505d.png": "/Gestiondestage/static/media/mapedep.d27c505d.png",
+    "static/media/mapisep.c26e0ead.png": "/Gestiondestage/static/media/mapisep.c26e0ead.png",
+    "static/media/mapvolkeno.0711a6a9.png": "/Gestiondestage/static/media/mapvolkeno.0711a6a9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3381706.js",
+    "static/js/2.acdecacb.chunk.js",
+    "static/css/main.ca29999b.chunk.css",
+    "static/js/main.5553b76b.chunk.js"
+  ]
+}
