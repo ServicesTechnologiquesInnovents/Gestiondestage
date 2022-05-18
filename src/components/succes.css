@@ -1,0 +1,147 @@
+
+.navbar-light {
+  color: azure;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  
+}
+.navbar-light > .container{
+
+  text-align: center;
+}
+.navbar-light > .container > h4{
+    background-color: black;
+    width: 180px;
+    padding: 10px 0;
+    border-radius: 20px;
+   
+}
+
+.form_control{
+ color:#0c0803;
+ font-size: 15px;
+
+
+}
+.form-control{
+ padding-top: 11px;
+ padding-bottom:11px;
+ padding-inline-end: 171px;
+ border-radius: 5px;
+ border: 1px gainsboro solid;
+ color:black;
+ font-size: 15px;
+ 
+}
+.connecter{
+  cursor: pointer;
+  text-align: right;
+}
+.message{
+  color: red;
+}
+
+/* ==================================== */
+
+
+  .outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+ 
+  .inner {
+    width: 450px;
+    margin: auto;
+    background: white;
+    box-shadow: 5px 10px 50px rgb(164, 156, 156);
+    padding: 40px 55px 45px 55px;
+    border-radius: 20px;
+    transition: all .3s;
+    margin-top: 50px;
+    border: 3px solid #ff8316;
+  }
+  .inner_control{
+    color: #ff8316;
+    
+  }
+  
+  
+  .outer .form_control:focus {
+    border-color: #ff8316;
+    box-shadow: none;
+    
+  }
+  
+  .outer h3 {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+    
+  }
+  .forgot-password a {
+    color: #d36825;
+  }
+  .deplacement-btn{
+    margin-top: 1rem;
+    margin-left: 100%;
+   
+  }
+  .btn_inscrire {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+   
+  }
+  button.btn_inscrire{
+    margin: 20px 0px;
+    cursor: pointer;
+   height: 50px;
+   width: 150px;
+   border-radius: 8px;
+  margin-left: 100px;
+
+}
+
+button.btn_inscrire:hover {
+    background-color: #0c0803;
+    border-radius: 6px;
+    border: #d36825 solid;
+    transition: all 0.2s ease-out;
+}
+@media only screen and (max-width: 420px){
+  .inner {
+    width: 350px;
+    margin: auto;
+    background: white;
+    box-shadow: 5px 10px 50px rgb(164, 156, 156);
+    padding: 40px 55px 45px 55px;
+    border-radius: 20px;
+    transition: all .3s;
+    margin-top: 50px;
+    border: 3px solid #ff8316;
+  }
+  button.btn_inscrire{
+    margin: 20px 0px;
+    cursor: pointer;
+   height: 50px;
+   width: 150px;
+   border-radius: 8px;
+  margin-left: 50px;
+}
+.form-control{
+  padding-top: 11px;
+  padding-bottom:11px;
+  padding-inline-end: 55px;
+  border-radius: 5px;
+  border: 1px gainsboro solid;
+  color:black;
+  font-size: 15px;
+  
+ }
+}

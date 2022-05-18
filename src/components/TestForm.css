@@ -1,0 +1,124 @@
+/* h1 {
+    border-bottom: 1px solid white;
+    color: #3d3d3d;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px;
+    text-align: center;
+  } */
+  
+  form#form{
+    background: white;
+    border: 3px solid #ed9118;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 10px 30px;
+    box-shadow: 5px 10px 50px rgb(164, 160, 156);
+    border-radius: 20px;
+  }
+  
+  
+  input[type="text"],[type="email"],[type="tel"],[type="date"], select {
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    
+  }
+  input:focus {
+    border-color: #ff8316;
+    box-shadow: none;
+    
+  }
+  input{
+    background-color: rgba(249, 239, 206, 0.684);
+    color: black;
+    font-size: 15px;
+  }
+  
+  label {
+    color: black;
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding-top:23px;
+  }
+  
+  .error {
+    color: red;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 30px;
+  }
+  .inner_control{
+    text-align: center;
+  }
+  .postuler{
+    display: flex;
+    cursor: pointer;
+   margin-right: 50px;
+   align-content: center;
+  }
+  .btn_inscriree{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  button.btn_inscriree{
+    margin: 20px 0px;
+    cursor: pointer;
+   height: 50px;
+   width: 120px;
+   border-radius: 8px;
+  margin-left: 80px;
+
+}
+button.btn_inscriree:hover {
+  background-color: #0c0803;
+  border-radius: 6px;
+  border: #d36825 solid;
+  transition: all 0.2s ease-out;
+
+}
+
+  .img_logo{
+    padding-bottom: 120px;
+    width: 220px;
+      height: 230px;
+      cursor: pointer;
+  }
+   
+  @media only screen and (max-width: 425px){
+    h3.inner_control{
+      padding-left: 110px;
+    }
+    .inner_control{
+      text-align: center;
+    height: 0px;
+    width: 50px;
+    }
+    .img_logo{
+        display: none;
+    }
+    button.btn_inscriree{
+      margin: 8px 0px;
+      cursor: pointer;
+     height: 40px;
+     width:85px;
+     border-radius: 8px;
+    margin-left: 40px;
+  
+  }
+  }
+   
+   
+  

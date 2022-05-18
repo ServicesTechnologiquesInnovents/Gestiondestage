@@ -1,0 +1,16 @@
+.logo_ejd{
+    display: flex;
+  margin-bottom: 2px;
+  height: 110px ;
+   padding-bottom: 0px;
+   cursor: pointer;
+   flex-grow:20;
+  cursor: pointer;
+  margin-top:0px;
+   
+}
+.hire__text{
+  color: aqua; 
+}
+
+  

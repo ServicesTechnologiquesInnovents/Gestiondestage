@@ -1,0 +1,150 @@
+.contact{
+    background-image: linear-gradient(rgb(210, 166, 55), rgba(103, 210, 210, 0.677)),
+    url(C:/gestion-stage/Gestion-de-stage/src/img/bak3.jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+
+h1.hire__text {
+    font-size: 60px;
+}
+p.hire__text{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(29,29,36,.75);
+    font-weight: 400;
+}
+input::placeholder {
+    color: #fcf6f6;
+    opacity: 1;
+  }
+  textarea::placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+input.contact{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 20px 0px;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: .1px;
+    background: none;
+    border: 2px solid hsla(0,0%,100%,.2);
+}
+.contact__img{
+    border-radius: 20px;
+    padding-top: 50px;
+    max-width: 190px;
+    margin-top: 150px;
+   
+   
+}
+.contact-me{
+    border-radius: 20px;
+    padding-top: 250px;
+}
+textarea#message{
+    height: 120px;
+    background: none;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 46px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: .1px;
+    border: 1px solid hsla(0,0%,100%,.2);
+}
+textarea#message:hover {
+    border: #d36825 solid 1px;
+    transition: all 0.2s ease-out;
+}
+button.btn.contact.pointer {
+    margin: 20px 0px;
+    cursor: pointer;
+    border: #fff solid 01px;
+}
+
+.hire-text{
+    color: yellow;
+margin-left: 0px;
+}
+h6{
+    padding-top: 15px;
+   
+}
+span{
+   margin-left: 16px;
+    display: inline;
+    font-size: 19px;
+    color: #737069;
+    cursor: pointer;
+    font-weight: 50;
+}
+
+span a{
+    color: #737069;
+    font-weight:50;
+}
+span a:hover{
+    text-decoration:underline;
+    color: orange;
+}
+button.btn.contact.pointer:hover {
+    background-color: #0c0803;
+    border-radius: 6px;
+    transition: all 0.2s ease-out;
+    padding-left: 10px;
+    border: rgb(247, 125, 19) solid;
+}
+h1 a{ 
+color:orange;
+
+
+}
+h1 a:hover{
+    color: #ffffff;
+  
+}
+.icons:hover{
+    margin-left: 6px;
+    margin-right: 8px;
+    box-shadow: 0px 0px 35px rgb(118, 199, 236), 0 -20px 20px 5px #dca93b9d;
+}
+.icons{ 
+ margin: 6px;
+ font-size: 35px;
+
+}
+.icone{
+   margin-left: 10px;
+    display: flex;
+   padding-left: 530px;
+   
+}
+@media only screen and (max-width: 1024px){
+
+    .contact__img{
+        border-radius: 20px;
+        padding-top: 50px;
+        max-width: 60px;
+        margin-top: px;
+        display: none;
+    }
+    .icone{
+        margin-left: 10px;
+         display: flex;
+        padding-left: 200px;
+     }
+     .contact__img{
+         display: none;
+     }
+}
