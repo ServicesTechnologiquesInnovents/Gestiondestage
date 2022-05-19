@@ -1,6 +1,6 @@
 .contact{
     background-image: linear-gradient(rgb(210, 166, 55), rgba(103, 210, 210, 0.677)),
-    url(C:/gestion-stage/Gestion-de-stage/src/img/bak3.jpg);
+    url(../../img/bak3.jpg);
     background-position: 50%;
     background-size: cover;
 }

@@ -1,8 +1,8 @@
 .home__bg{
     
     background-image: linear-gradient(rgba(236, 147, 31, 0.792), rgba(62, 166, 213, 0.373)),
-    url(C:/gestion-stage/Gestion-de-stage/src/img/img1.jpg),
-    url(C:/gestion-stage/Gestion-de-stage/src/img/img11.jpg);;
+    url(../../img/img1.jpg),
+    url(../../img/img11.jpg);;
     background-image: url ('src/img/bg.jpg ');
     background-color: #010101;
     background-position: 50%;
